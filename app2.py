@@ -105,7 +105,7 @@ for region in selected_regions:
 
 # --- CARTE INTERACTIVE ---
 st.subheader("🗺️ Geographic Visualization")
-map_data = filtered.groupby("Region").mean().reset_index()
+map_data = filtered[["Region", "Value", "lat", "lon"]].groupby("Region", as_index=False).mean()
 map_data["lat"] = map_data["Region"].map(lambda x: coords.get(x, (0, 0))[0])
 map_data["lon"] = map_data["Region"].map(lambda x: coords.get(x, (0, 0))[1])
 map_data["Value"] = map_data["Value"].round(1)
