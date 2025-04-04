@@ -6,7 +6,7 @@ import pydeck as pdk
 # ✅ Doit être la première commande Streamlit
 st.set_page_config(page_title="Economic Analysis Portugal", layout="wide")
 
-# Charger les données
+# Chargement des données
 @st.cache_data
 def load_data():
     df = pd.read_csv("data_eurostat_clean.csv")
@@ -14,25 +14,23 @@ def load_data():
 
 df = load_data()
 
-# Ajout de coordonnées approximatives pour chaque région
-coords = {
-    "Norte": (41.5, -8.5),
-    "Centro": (40.3, -7.9),
-    "Área Metropolitana de Lisboa": (38.7, -9.1),
-    "Alentejo": (38.0, -7.9),
-    "Algarve": (37.0, -8.0),
-    "Região Autónoma dos Açores": (38.7, -27.2),
-    "Região Autónoma da Madeira": (32.7, -17.0)
+# Coordonnées des régions portugaises
+region_coords = {
+    "Norte": (41.6946, -8.8345),
+    "Centro (PT) (NUTS 2021)": (40.2033, -8.4103),
+    "Área Metropolitana de Lisboa": (38.7169, -9.1399),
+    "Alentejo (NUTS 2021)": (38.0152, -7.8806),
+    "Algarve": (37.0179, -7.9307),
+    "Região Autónoma dos Açores": (37.7412, -25.6756),
+    "Região Autónoma da Madeira": (32.7607, -16.9595)
 }
-df["lat"] = df["Region"].map(lambda x: coords.get(x, (0, 0))[0])
-df["lon"] = df["Region"].map(lambda x: coords.get(x, (0, 0))[1])
 
-# Titre
+# Interface
 st.title("📊 Regional Economic Analysis of Portugal (2000 - 2022)")
 
 st.markdown("""
 This interactive app lets you explore regional economic trends in Portugal.  
-Use the filters to compare regions, view trends, and export data.
+Use the filters to compare regions, view trends, download data, and visualize patterns on a map.
 """)
 
 # --- SIDEBAR ---
@@ -41,6 +39,7 @@ st.sidebar.header("🔹 Filters")
 regions = sorted(df["Region"].unique())
 default_regions = regions[:3]
 
+# Gestion du bouton reset
 if st.sidebar.button("🔄 Reset Filters"):
     selected_regions = default_regions
     year_range = (2010, 2022)
@@ -53,7 +52,11 @@ filtered = df[
     (df["Region"].isin(selected_regions)) &
     (df["Year"] >= year_range[0]) &
     (df["Year"] <= year_range[1])
-]
+].copy()
+
+# Ajout des coordonnées
+filtered["lat"] = filtered["Region"].map(lambda x: region_coords.get(x, (None, None))[0])
+filtered["lon"] = filtered["Region"].map(lambda x: region_coords.get(x, (None, None))[1])
 
 # --- GRAPHIQUE ---
 st.subheader("🔄 Regional Trends")
@@ -105,9 +108,13 @@ for region in selected_regions:
 
 # --- CARTE INTERACTIVE ---
 st.subheader("🗺️ Geographic Visualization")
-map_data = filtered[["Region", "Value", "lat", "lon"]].groupby("Region", as_index=False).mean()
-map_data["lat"] = map_data["Region"].map(lambda x: coords.get(x, (0, 0))[0])
-map_data["lon"] = map_data["Region"].map(lambda x: coords.get(x, (0, 0))[1])
+
+# Regrouper les données par région avec moyennes
+map_data = filtered.dropna(subset=["lat", "lon"]).groupby("Region", as_index=False).agg({
+    "Value": "mean",
+    "lat": "first",
+    "lon": "first"
+})
 map_data["Value"] = map_data["Value"].round(1)
 
 layer = pdk.Layer(
