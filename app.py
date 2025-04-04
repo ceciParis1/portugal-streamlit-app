@@ -18,7 +18,7 @@ st.title("📊 Regional Economic Analysis of Portugal (2000 - 2022)")
 
 st.markdown("""
 This interactive application allows you to explore the evolution of regional economic indicators in Portugal from 2000 to 2022.  
-Use the filters on the left to analyze trends, compare regions, and strengthen your thesis with interactive visualizations.
+Use the filters on the left to analyze trends, compare regions with interactive visualizations.
 """)
 
 # Filters
