@@ -1,0 +1,277 @@
+Country,Region,Year,Value
+Portugal,Continente,2000,97.3
+Portugal,Continente,2001,99.2
+Portugal,Continente,2002,99.8
+Portugal,Continente,2003,98.9
+Portugal,Continente,2004,100.6
+Portugal,Continente,2005,101.3
+Portugal,Continente,2006,102.9
+Portugal,Continente,2007,105.6
+Portugal,Continente,2008,105.8
+Portugal,Continente,2009,102.5
+Portugal,Continente,2010,104.3
+Portugal,Continente,2011,102.4
+Portugal,Continente,2012,98.4
+Portugal,Continente,2013,97.5
+Portugal,Continente,2014,98.3
+Portugal,Continente,2015,100.0
+Portugal,Continente,2016,102.0
+Portugal,Continente,2017,105.6
+Portugal,Continente,2018,108.7
+Portugal,Continente,2019,111.6
+Portugal,Continente,2020,102.6
+Portugal,Continente,2021,108.3
+Portugal,Continente,2022,115.5
+Portugal,Norte,2000,94.2
+Portugal,Norte,2001,97.1
+Portugal,Norte,2002,96.4
+Portugal,Norte,2003,94.1
+Portugal,Norte,2004,94.8
+Portugal,Norte,2005,96.1
+Portugal,Norte,2006,97.7
+Portugal,Norte,2007,101.1
+Portugal,Norte,2008,101.7
+Portugal,Norte,2009,97.9
+Portugal,Norte,2010,100.2
+Portugal,Norte,2011,98.9
+Portugal,Norte,2012,95.8
+Portugal,Norte,2013,95.8
+Portugal,Norte,2014,97.8
+Portugal,Norte,2015,100.0
+Portugal,Norte,2016,102.8
+Portugal,Norte,2017,106.4
+Portugal,Norte,2018,110.3
+Portugal,Norte,2019,113.3
+Portugal,Norte,2020,106.0
+Portugal,Norte,2021,111.9
+Portugal,Norte,2022,118.1
+Portugal,Algarve,2000,94.6
+Portugal,Algarve,2001,99.1
+Portugal,Algarve,2002,100.5
+Portugal,Algarve,2003,101.0
+Portugal,Algarve,2004,101.5
+Portugal,Algarve,2005,104.0
+Portugal,Algarve,2006,107.0
+Portugal,Algarve,2007,109.9
+Portugal,Algarve,2008,110.1
+Portugal,Algarve,2009,103.0
+Portugal,Algarve,2010,102.9
+Portugal,Algarve,2011,99.6
+Portugal,Algarve,2012,96.6
+Portugal,Algarve,2013,94.9
+Portugal,Algarve,2014,97.3
+Portugal,Algarve,2015,100.0
+Portugal,Algarve,2016,105.0
+Portugal,Algarve,2017,110.6
+Portugal,Algarve,2018,113.4
+Portugal,Algarve,2019,117.1
+Portugal,Algarve,2020,95.6
+Portugal,Algarve,2021,102.7
+Portugal,Algarve,2022,120.1
+Portugal,Centro (PT) (NUTS 2021),2000,99.9
+Portugal,Centro (PT) (NUTS 2021),2001,101.5
+Portugal,Centro (PT) (NUTS 2021),2002,100.8
+Portugal,Centro (PT) (NUTS 2021),2003,101.2
+Portugal,Centro (PT) (NUTS 2021),2004,102.9
+Portugal,Centro (PT) (NUTS 2021),2005,102.9
+Portugal,Centro (PT) (NUTS 2021),2006,104.6
+Portugal,Centro (PT) (NUTS 2021),2007,106.7
+Portugal,Centro (PT) (NUTS 2021),2008,105.2
+Portugal,Centro (PT) (NUTS 2021),2009,102.0
+Portugal,Centro (PT) (NUTS 2021),2010,103.1
+Portugal,Centro (PT) (NUTS 2021),2011,101.4
+Portugal,Centro (PT) (NUTS 2021),2012,97.9
+Portugal,Centro (PT) (NUTS 2021),2013,96.7
+Portugal,Centro (PT) (NUTS 2021),2014,97.4
+Portugal,Centro (PT) (NUTS 2021),2015,100.0
+Portugal,Centro (PT) (NUTS 2021),2016,102.3
+Portugal,Centro (PT) (NUTS 2021),2017,105.5
+Portugal,Centro (PT) (NUTS 2021),2018,108.3
+Portugal,Centro (PT) (NUTS 2021),2019,110.9
+Portugal,Centro (PT) (NUTS 2021),2020,104.5
+Portugal,Centro (PT) (NUTS 2021),2021,109.7
+Portugal,Centro (PT) (NUTS 2021),2022,113.9
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2000,97.6
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2001,98.9
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2002,101.0
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2003,100.2
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2004,102.9
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2005,103.7
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2006,105.1
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2007,107.5
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2008,108.6
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2009,106.2
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2010,108.0
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2011,106.0
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2012,101.1
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2013,99.9
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2014,99.5
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2015,100.0
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2016,101.3
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2017,105.0
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2018,107.9
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2019,111.4
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2020,101.1
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2021,106.8
+Portugal,Área Metropolitana de Lisboa (NUTS 2021),2022,115.5
+Portugal,Alentejo (NUTS 2021),2000,104.1
+Portugal,Alentejo (NUTS 2021),2001,104.3
+Portugal,Alentejo (NUTS 2021),2002,105.2
+Portugal,Alentejo (NUTS 2021),2003,105.3
+Portugal,Alentejo (NUTS 2021),2004,106.8
+Portugal,Alentejo (NUTS 2021),2005,105.3
+Portugal,Alentejo (NUTS 2021),2006,107.4
+Portugal,Alentejo (NUTS 2021),2007,109.5
+Portugal,Alentejo (NUTS 2021),2008,108.0
+Portugal,Alentejo (NUTS 2021),2009,103.0
+Portugal,Alentejo (NUTS 2021),2010,105.6
+Portugal,Alentejo (NUTS 2021),2011,103.8
+Portugal,Alentejo (NUTS 2021),2012,98.0
+Portugal,Alentejo (NUTS 2021),2013,96.0
+Portugal,Alentejo (NUTS 2021),2014,96.8
+Portugal,Alentejo (NUTS 2021),2015,100.0
+Portugal,Alentejo (NUTS 2021),2016,99.5
+Portugal,Alentejo (NUTS 2021),2017,102.4
+Portugal,Alentejo (NUTS 2021),2018,103.3
+Portugal,Alentejo (NUTS 2021),2019,103.8
+Portugal,Alentejo (NUTS 2021),2020,94.8
+Portugal,Alentejo (NUTS 2021),2021,101.3
+Portugal,Alentejo (NUTS 2021),2022,106.0
+Portugal,Região Autónoma dos Açores,2000,85.6
+Portugal,Região Autónoma dos Açores,2001,90.2
+Portugal,Região Autónoma dos Açores,2002,93.3
+Portugal,Região Autónoma dos Açores,2003,93.0
+Portugal,Região Autónoma dos Açores,2004,94.4
+Portugal,Região Autónoma dos Açores,2005,96.3
+Portugal,Região Autónoma dos Açores,2006,98.3
+Portugal,Região Autónoma dos Açores,2007,100.6
+Portugal,Região Autónoma dos Açores,2008,103.3
+Portugal,Região Autónoma dos Açores,2009,101.0
+Portugal,Região Autónoma dos Açores,2010,102.6
+Portugal,Região Autónoma dos Açores,2011,100.8
+Portugal,Região Autónoma dos Açores,2012,97.1
+Portugal,Região Autónoma dos Açores,2013,96.3
+Portugal,Região Autónoma dos Açores,2014,96.8
+Portugal,Região Autónoma dos Açores,2015,100.0
+Portugal,Região Autónoma dos Açores,2016,103.0
+Portugal,Região Autónoma dos Açores,2017,104.8
+Portugal,Região Autónoma dos Açores,2018,106.9
+Portugal,Região Autónoma dos Açores,2019,109.6
+Portugal,Região Autónoma dos Açores,2020,99.6
+Portugal,Região Autónoma dos Açores,2021,107.0
+Portugal,Região Autónoma dos Açores,2022,114.3
+Portugal,Região Autónoma dos Açores,2000,85.6
+Portugal,Região Autónoma dos Açores,2001,90.2
+Portugal,Região Autónoma dos Açores,2002,93.3
+Portugal,Região Autónoma dos Açores,2003,93.0
+Portugal,Região Autónoma dos Açores,2004,94.4
+Portugal,Região Autónoma dos Açores,2005,96.3
+Portugal,Região Autónoma dos Açores,2006,98.3
+Portugal,Região Autónoma dos Açores,2007,100.6
+Portugal,Região Autónoma dos Açores,2008,103.3
+Portugal,Região Autónoma dos Açores,2009,101.0
+Portugal,Região Autónoma dos Açores,2010,102.6
+Portugal,Região Autónoma dos Açores,2011,100.8
+Portugal,Região Autónoma dos Açores,2012,97.1
+Portugal,Região Autónoma dos Açores,2013,96.3
+Portugal,Região Autónoma dos Açores,2014,96.8
+Portugal,Região Autónoma dos Açores,2015,100.0
+Portugal,Região Autónoma dos Açores,2016,103.0
+Portugal,Região Autónoma dos Açores,2017,104.8
+Portugal,Região Autónoma dos Açores,2018,106.9
+Portugal,Região Autónoma dos Açores,2019,109.6
+Portugal,Região Autónoma dos Açores,2020,99.6
+Portugal,Região Autónoma dos Açores,2021,107.0
+Portugal,Região Autónoma dos Açores,2022,114.3
+Portugal,Região Autónoma da Madeira,2000,89.1
+Portugal,Região Autónoma da Madeira,2001,88.9
+Portugal,Região Autónoma da Madeira,2002,96.3
+Portugal,Região Autónoma da Madeira,2003,96.8
+Portugal,Região Autónoma da Madeira,2004,102.3
+Portugal,Região Autónoma da Madeira,2005,105.0
+Portugal,Região Autónoma da Madeira,2006,107.5
+Portugal,Região Autónoma da Madeira,2007,108.8
+Portugal,Região Autónoma da Madeira,2008,110.0
+Portugal,Região Autónoma da Madeira,2009,105.9
+Portugal,Região Autónoma da Madeira,2010,107.2
+Portugal,Região Autónoma da Madeira,2011,107.1
+Portugal,Região Autónoma da Madeira,2012,98.9
+Portugal,Região Autónoma da Madeira,2013,97.7
+Portugal,Região Autónoma da Madeira,2014,98.7
+Portugal,Região Autónoma da Madeira,2015,100.0
+Portugal,Região Autónoma da Madeira,2016,102.1
+Portugal,Região Autónoma da Madeira,2017,107.3
+Portugal,Região Autónoma da Madeira,2018,108.8
+Portugal,Região Autónoma da Madeira,2019,110.7
+Portugal,Região Autónoma da Madeira,2020,93.7
+Portugal,Região Autónoma da Madeira,2021,102.3
+Portugal,Região Autónoma da Madeira,2022,116.8
+Portugal,Região Autónoma da Madeira,2000,89.1
+Portugal,Região Autónoma da Madeira,2001,88.9
+Portugal,Região Autónoma da Madeira,2002,96.3
+Portugal,Região Autónoma da Madeira,2003,96.8
+Portugal,Região Autónoma da Madeira,2004,102.3
+Portugal,Região Autónoma da Madeira,2005,105.0
+Portugal,Região Autónoma da Madeira,2006,107.5
+Portugal,Região Autónoma da Madeira,2007,108.8
+Portugal,Região Autónoma da Madeira,2008,110.0
+Portugal,Região Autónoma da Madeira,2009,105.9
+Portugal,Região Autónoma da Madeira,2010,107.2
+Portugal,Região Autónoma da Madeira,2011,107.1
+Portugal,Região Autónoma da Madeira,2012,98.9
+Portugal,Região Autónoma da Madeira,2013,97.7
+Portugal,Região Autónoma da Madeira,2014,98.7
+Portugal,Região Autónoma da Madeira,2015,100.0
+Portugal,Região Autónoma da Madeira,2016,102.1
+Portugal,Região Autónoma da Madeira,2017,107.3
+Portugal,Região Autónoma da Madeira,2018,108.8
+Portugal,Região Autónoma da Madeira,2019,110.7
+Portugal,Região Autónoma da Madeira,2020,93.7
+Portugal,Região Autónoma da Madeira,2021,102.3
+Portugal,Região Autónoma da Madeira,2022,116.8
+Portugal,Extra-Regio NUTS 1,2000,269.0
+Portugal,Extra-Regio NUTS 1,2001,216.1
+Portugal,Extra-Regio NUTS 1,2002,167.3
+Portugal,Extra-Regio NUTS 1,2003,126.6
+Portugal,Extra-Regio NUTS 1,2004,103.6
+Portugal,Extra-Regio NUTS 1,2005,78.8
+Portugal,Extra-Regio NUTS 1,2006,64.3
+Portugal,Extra-Regio NUTS 1,2007,47.8
+Portugal,Extra-Regio NUTS 1,2008,40.3
+Portugal,Extra-Regio NUTS 1,2009,123.1
+Portugal,Extra-Regio NUTS 1,2010,122.4
+Portugal,Extra-Regio NUTS 1,2011,111.2
+Portugal,Extra-Regio NUTS 1,2012,86.1
+Portugal,Extra-Regio NUTS 1,2013,91.8
+Portugal,Extra-Regio NUTS 1,2014,83.6
+Portugal,Extra-Regio NUTS 1,2015,100.0
+Portugal,Extra-Regio NUTS 1,2016,91.7
+Portugal,Extra-Regio NUTS 1,2017,94.9
+Portugal,Extra-Regio NUTS 1,2018,89.6
+Portugal,Extra-Regio NUTS 1,2019,92.9
+Portugal,Extra-Regio NUTS 1,2020,85.8
+Portugal,Extra-Regio NUTS 1,2021,83.6
+Portugal,Extra-Regio NUTS 1,2022,86.3
+Portugal,Extra-Regio NUTS 2,2000,269.0
+Portugal,Extra-Regio NUTS 2,2001,216.1
+Portugal,Extra-Regio NUTS 2,2002,167.3
+Portugal,Extra-Regio NUTS 2,2003,126.6
+Portugal,Extra-Regio NUTS 2,2004,103.6
+Portugal,Extra-Regio NUTS 2,2005,78.8
+Portugal,Extra-Regio NUTS 2,2006,64.3
+Portugal,Extra-Regio NUTS 2,2007,47.8
+Portugal,Extra-Regio NUTS 2,2008,40.3
+Portugal,Extra-Regio NUTS 2,2009,123.1
+Portugal,Extra-Regio NUTS 2,2010,122.4
+Portugal,Extra-Regio NUTS 2,2011,111.2
+Portugal,Extra-Regio NUTS 2,2012,86.1
+Portugal,Extra-Regio NUTS 2,2013,91.8
+Portugal,Extra-Regio NUTS 2,2014,83.6
+Portugal,Extra-Regio NUTS 2,2015,100.0
+Portugal,Extra-Regio NUTS 2,2016,91.7
+Portugal,Extra-Regio NUTS 2,2017,94.9
+Portugal,Extra-Regio NUTS 2,2018,89.6
+Portugal,Extra-Regio NUTS 2,2019,92.9
+Portugal,Extra-Regio NUTS 2,2020,85.8
+Portugal,Extra-Regio NUTS 2,2021,83.6
+Portugal,Extra-Regio NUTS 2,2022,86.3
